@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/style.css" />
+    <script type="module" src="/javascript/app.js" defer></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <nav class="active"><h1>Welcome</h1></nav>
+    <header>
+      <form id="input">
+        <div><label for="user--input">Please enter a to-do action</label></div>
+
+        <input
+          type="text"
+          class="user--input"
+          id="user--input"
+          placeholder="TODO"
+        />
+        <span class="to--do__count"
+          ><span class="count" data-counter="0">0</span>/20</span
+        >
+        <div>
+          <input type="submit" value="Submit" class="submit--btn btn" />
+        </div>
+      </form>
+    </header>
+    <main id="mainEl">
+      <section class="main-section--1">
+        <ul class="user--toDos">
+          <!-- <li class="user--toDos--items">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Hic
+            laudantium omnis quas. <span class="delet-btn">X</span>
+            <span class="hamburger-btn">&#9776;</span>
+          </li> -->
+        </ul>
+      </section>
+    </main>
+  </body>
+</html>
